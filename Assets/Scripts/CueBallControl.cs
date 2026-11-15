@@ -48,21 +48,6 @@ public class CueBallControl : MonoBehaviour
             }
         }
 
-        /*
-        if (rb.linearVelocity.magnitude == 0f && Colourball1.linearVelocity.magnitude == 0f && Colourball2.linearVelocity.magnitude == 0f && Colourball3.linearVelocity.magnitude == 0f && Colourball4.linearVelocity.magnitude == 0f && Colourball5.linearVelocity.magnitude == 0f && Colourball6.linearVelocity.magnitude == 0f && Colourball7.linearVelocity.magnitude == 0f && Colourball8.linearVelocity.magnitude == 0f && Colourball9.linearVelocity.magnitude == 0f && Colourball10.linearVelocity.magnitude == 0f && Colourball11.linearVelocity.magnitude == 0f && Colourball12.linearVelocity.magnitude == 0f && Colourball13.linearVelocity.magnitude == 0f && Colourball14.linearVelocity.magnitude == 0f && Colourball15.linearVelocity.magnitude == 0f)
-        {
-
-            canPlay = true;
-
-        }
-        else
-        {
-
-            canPlay = false;
-           
-
-        } */
-
         if (canPlay)
         {
             if (Input.GetKey(KeyCode.RightArrow))
